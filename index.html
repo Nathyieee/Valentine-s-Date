@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Valentine?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts-bg" aria-hidden="true"></div>
+
+  <main class="card-wrapper">
+    <article class="letter-card">
+      <div class="letter-inner">
+        <!-- Put your photo in this folder as photo.jpg to show it here -->
+        <img class="card-photo" src="kylyapic.jpg" alt="Photo" onerror="this.src='https://placehold.co/400x280/4a1c2a/f8d4e0?text=♥'; this.onerror=null;">
+        <h1 class="letter-title">Will you be my valentines date?</h1>
+        <div class="button-group">
+          <a href="#" class="btn btn-yes" id="btnYes">Yes!</a>
+          <button type="button" class="btn btn-no" id="btnNo">No</button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <div class="success-message hidden" id="successMessage">
+    <button type="button" class="success-close" id="successClose" aria-label="Close">×</button>
+    <div class="success-frame">
+      <!-- Put a photo of you two in this folder as us.jpg -->
+      <img class="success-frame-photo" src="pic namen.jpg" alt="Us" onerror="this.src='https://placehold.co/360x240/4a1c2a/f8d4e0?text=♥+Us'; this.onerror=null;">
+      <p>HEHEHEHE ALAM KO NAMAN NA MAG YE-YES KA ^^ 💖 Happy Valentines Day!</p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
