@@ -95,13 +95,15 @@ body {
 
 .card-photo {
   width: 100%;
-  max-height: 280px;
-  object-fit: cover;
+  height: auto;          /* let the image keep its real ratio */
+  max-height: none;     /* remove the forced height */
+  object-fit: contain;  /* show the whole image */
   border-radius: 12px;
   margin-bottom: 1.5rem;
   display: block;
   background: rgba(80, 30, 45, 0.6);
 }
+
 
 .letter-title {
   font-family: "Playfair Display", "Cormorant Garamond", serif;
